@@ -18,6 +18,10 @@ dependencies = [
     "langchain-groq>=0.2.4",
 ]
 
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+
 [project.optional-dependencies]
 dev = ["mypy>=1.11.1", "ruff>=0.6.1"]
 
